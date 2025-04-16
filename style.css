@@ -1,0 +1,79 @@
+body {
+    background-color: #f4f6f9;
+  }
+  
+  .card {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border-left: 6px solid #0d6efd;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .timer {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #0d6efd;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin-top: 40px;
+  }
+  
+  form input[type="text"], form input[type="datetime-local"] {
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: 1px solid #ced4da;
+    transition: border 0.3s ease;
+  }
+  
+  form input[type="text"]:focus, form input[type="datetime-local"]:focus {
+    border-color: #0d6efd;
+    outline: none;
+  }
+  
+  form button {
+    border-radius: 12px;
+    font-weight: 600;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.3rem;
+    }
+  }
+  
