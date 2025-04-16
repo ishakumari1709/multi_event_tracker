@@ -64,7 +64,7 @@ A sleek and responsive web app that allows users to create and manage multiple c
 
 ---
 
-## 📌 To-Do / Planned Enhancements
+## 📌Planned Enhancements
 
 - [ ] Add notifications when an event starts  
 - [ ] Drag and drop to reorder timers  
